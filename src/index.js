@@ -34,6 +34,6 @@ exports.avg = function avg(array) {
   for (let i = 0; i < array.length; i++) {
     avg_el += array[i];
   }
-  avg_el /= array.length;
+  let avg_el1 = avg_el / array.length;
   return avg_el;
 }
