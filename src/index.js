@@ -1,7 +1,7 @@
 
 exports.min = function min(array) {
   if (array.length == 0 && array[0] == undefined) {
-    return 0
+    return 0;
   }
   let el_min = array[0];
   for (let i = 1; i < array.length; i++) {
