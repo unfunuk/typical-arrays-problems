@@ -1,7 +1,7 @@
 
 exports.min = function min(array) {
-  if (array === undefined) {
-    return 0;
+  if (array.length == 0) {
+    return 0
   }
   let el_min = array[0];
   for (let i = 1; i < array.length; i++) {
@@ -14,7 +14,7 @@ exports.min = function min(array) {
 
 exports.max = function max(array) {
 
-  if (array === undefined) {
+  if (array.length == 0) {
     return 0;
   }
   let el_max = array[0];
@@ -27,7 +27,7 @@ exports.max = function max(array) {
 }
 
 exports.avg = function avg(array) {
-  if (array === undefined) {
+  if (array.length == 0) {
     return 0;
   }
   let avg_el = 0;
